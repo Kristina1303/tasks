@@ -5,7 +5,7 @@ using namespace std;//to show the computer we wil use std from iosteram for all 
 
 int main()//âúâåæäàìå ãëàâíàòà ôóíêöèÿ, çà äà íè òðúãíå êîäà
 {//îòâàðÿùà ñêîáà çà main
-    setlocale(LC_ALL, bulgarian);
+    setlocale(LC_ALL, "bulgarian");
     srand(time(0)); //seed random number generator
     int countr = 0;
     int circles = 0;
