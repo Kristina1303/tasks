@@ -53,8 +53,9 @@ int main()//âúâåæäàìå ãëàâíàòà ôóíêöèÿ, çà äà íè �
         {
             for (int i = 0; i < diggets; i++)
             {
-                if (tmp2 / 10 == 8) circles = circles + 2;
-                else if (tmp2 / 10 == 9 or tmp2 / 10 == 6) circles++;
+                if (tmp2 % 10 == 8) circles = circles + 2;
+                else if (tmp2 % 10 == 9 or tmp2 % 10 == 6) circles++;
+                tmp2=tmp2/10// ili dokato tmp2 != 0 i taka shte e bez diggets
            }cout << "Number has " << circles << " circles" << endl;
         }
         
